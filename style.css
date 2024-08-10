@@ -1,0 +1,206 @@
+/* CSS untuk Halaman CRUD Siswa */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #445042;
+    margin-top: 50px; /* Sesuaikan dengan margin yang diinginkan */
+    margin-bottom: 20px; /* Sesuaikan dengan margin yang diinginkan */
+    text-shadow: 2px 2px 4px rgba(0, 255, 98, 0.2); /* Efek bayangan teks */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* CSS untuk tabel */
+table {
+    margin: 20px;
+    width: 95%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(142, 35, 35, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+th {
+    background-color: #55bc80;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    background-color: #f2f2f2;
+    color: #444;
+}
+
+/* Efek hover untuk baris tabel */
+tr:hover {
+    background-color: #eaf2f8;
+    transition: background-color 0.3s ease;
+}
+
+/* CSS untuk sel gambar */
+td img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+form {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form input[type="submit"],
+form input[type="button"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+form p.error {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+a.add-data-link {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.add-data-link:hover {
+    background-color: #45a049;
+}
+
+
+table a[href^="form_ubah.php"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table a[href^="form_ubah.php"]:hover {
+    background-color: #0056b3;
+}
+
+table a[href^="proses_hapus.php"] {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+table a[href^="proses_hapus.php"]:hover {
+    background-color: #c82333;
+}
+
+.tambah-siswa{
+    margin-top: 20px;
+}
+
+.ubah-siswa{
+    margin-top: 20px;
+}
